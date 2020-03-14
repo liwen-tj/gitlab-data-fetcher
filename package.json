@@ -1,0 +1,30 @@
+{
+  "name": "gitlab-data-fetcher",
+  "version": "1.0.0",
+  "description": "get repo history data",
+  "main": "index.ts",
+  "scripts": {
+    "test": "npm test"
+  },
+  "dependencies": {
+    "@types/node-fetch": "^2.5.5",
+    "node-fetch": "^2.6.0",
+    "p-wait-for": "^3.1.0",
+    "typescript": "^3.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/liwen-tj/gitlab-data-fetcher.git"
+  },
+  "keywords": [
+    "graphql",
+    "gitlab",
+    "data"
+  ],
+  "author": "liwen-tj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liwen-tj/gitlab-data-fetcher/issues"
+  },
+  "homepage": "https://github.com/liwen-tj/gitlab-data-fetcher#readme"
+}
